@@ -1,0 +1,70 @@
+<Parameters>
+    <Parameter>
+        <Name>Elektropokretač se okreće?</Name>
+        <Synonims>Starter;Motor</Synonims>
+        <Availability>0</Availability>
+        <RealValue>Doesn't turn</RealValue>
+        <AssignedValue>Ne</AssignedValue>
+        <Weight>0</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Parameter>
+        <Name>Ima li goriva?</Name>
+        <Synonims>Gas check;Petrol;Petrol check</Synonims>
+        <Availability>0</Availability>
+        <RealValue>Available</RealValue>
+        <AssignedValue>Da</AssignedValue>
+        <Weight>0</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Parameter>
+        <Name>Rade li svjetla?</Name>
+        <Synonims>Lights</Synonims>
+        <Availability>0</Availability>
+        <RealValue>Ne</RealValue>
+        <AssignedValue>Ne</AssignedValue>
+        <Weight>0</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Parameter>
+        <Name>Iskra na svjećicama?</Name>
+        <Synonims>Spark at plugs</Synonims>
+        <Availability>0</Availability>
+        <RealValue>Da</RealValue>
+        <AssignedValue>Da</AssignedValue>
+        <Weight>1</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Parameter>
+        <Name>Gorivo dolazi do svjećica?</Name>
+        <Synonims>Fuel plugs</Synonims>
+        <Availability>0</Availability>
+        <RealValue>Da</RealValue>
+        <AssignedValue>Da</AssignedValue>
+        <Weight>1</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Parameter>
+        <Name>Gorivo dolazi do rasplinjaca?</Name>
+        <Synonims>Carburator</Synonims>
+        <Availability>0</Availability>
+        <RealValue>Da</RealValue>
+        <AssignedValue>Da</AssignedValue>
+        <Weight>1</Weight>
+        <Price>1</Price>
+    </Parameter>
+	<Parameter>
+        <Name>Iskra na indukcijskoj zavojnici?</Name>
+        <Synonims></Synonims>
+        <Availability>0</Availability>
+        <RealValue>Da</RealValue>
+        <AssignedValue>Da</AssignedValue>
+        <Weight>1</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Diagnosis>
+        <Name>Prazan akumulator</Name>
+        <Correct>Yes</Correct>
+    </Diagnosis>	
+</Parameters>
+

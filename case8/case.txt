@@ -1,0 +1,78 @@
+<ID>8</ID>
+<Introduction>
+The car won't start.
+</Introduction>
+<Task>
+What's wrong with the car? Can you diagNese the problem?
+</Task>
+<Parameters>
+    <Parameter>
+        <Name>Elektropokretač se okreće?</Name>
+        <Synonims>Starter;Motor</Synonims>
+        <Availability>0</Availability>
+        <Real value>Da</Real value>
+        <Assigned value>Da</Assigned value>
+        <Weight>0</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Parameter>
+        <Name>Ima li goriva?</Name>
+        <Synonims>Gas check;Petrol;Petrol check</Synonims>
+        <Availability>0</Availability>
+        <Real value>Da</Real value>
+        <Assigned value>Da</Assigned value>
+        <Weight>0</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Parameter>
+        <Name>Rade li svjetla?</Name>
+        <Synonims>Lights</Synonims>
+        <Availability>0</Availability>
+        <Real value>Da</Real value>
+        <Assigned value>Da</Assigned value>
+        <Weight>0</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Parameter>
+        <Name>Iskra na svjećicama?</Name>
+        <Synonims>Spark at plugs</Synonims>
+        <Availability>0</Availability>
+        <Real value>Da</Real value>
+        <Assigned value>Da</Assigned value>
+        <Weight>1</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Parameter>
+        <Name>Gorivo dolazi do svjećica?</Name>
+        <Synonims>Fuel plugs</Synonims>
+        <Availability>0</Availability>
+        <Real value>Ne</Real value>
+        <Assigned value>Ne</Assigned value>
+        <Weight>1</Weight>
+        <Price>1</Price>
+    </Parameter>
+    <Parameter>
+        <Name>Gorivo dolazi do rasplinjaca?</Name>
+        <Synonims>Carburator</Synonims>
+        <Availability>0</Availability>
+        <Real value>Ne</Real value>
+        <Assigned value>Ne</Assigned value>
+        <Weight>1</Weight>
+        <Price>1</Price>
+    </Parameter>
+	<Parameter>
+        <Name>Iskra na indukcijskoj zavojnici?</Name>
+        <Synonims></Synonims>
+        <Availability>0</Availability>
+        <Real value>Da</Real value>
+        <Assigned value>Da</Assigned value>
+        <Weight>1</Weight>
+        <Price>1</Price>
+    </Parameter>	
+</Parameters>
+<Diagnoses>
+    <Diagnosis>
+        <Name>Začepljen dovod goriva</Name>
+        <Correct>Yes</Correct>
+    </Diagnosis>
+</Diagnoses>
