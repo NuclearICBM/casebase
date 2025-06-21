@@ -1,0 +1,23 @@
+{
+  "name": "casebase-service",
+  "version": "1.0.0",
+  "description": "Web service to serve casebase directory with listing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuclearICBM/casebase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NuclearICBM/casebase/issues"
+  },
+  "homepage": "https://github.com/NuclearICBM/casebase#readme"
+}
